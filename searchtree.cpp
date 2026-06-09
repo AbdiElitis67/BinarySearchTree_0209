@@ -23,3 +23,8 @@ class binarytree
 public:
     node *root;
 
+    binarytree()
+    {
+        root = NULL; // initializing root to null
+    }
+
